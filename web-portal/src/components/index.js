@@ -1,1 +1,5 @@
 export {default as Home} from './Home'
+export {default as Footer} from './Footer'
+export {default as Info} from './Info'
+export {default as OverflowAlert} from './OverflowAlert'
+export {default as Stats} from './Stats'

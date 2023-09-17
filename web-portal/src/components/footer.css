@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+    margin-top: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.footnote{
+    border-top: #3bc801 solid 0.2px;
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footnote .footer-heart{
+    color: #3bc801;
+}
+
+.footnote span{
+    color: #3bc801;
+}

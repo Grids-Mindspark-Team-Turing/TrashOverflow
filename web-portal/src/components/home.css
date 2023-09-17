@@ -1,0 +1,34 @@
+.home .home-content-1{
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 70%;
+    width: 20%;
+}
+.home .home-content-3{
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 70%;
+}
+.home .home-content-2 .home-content-2-1{
+    text-align: left;
+    float: left;
+    height: 90%;
+}
+.home .home-content-2 .home-content-2-2{
+    color: black;
+    margin-bottom: 100px;
+}
+.home .home-content-2 .home-content-2-2 .home-content-2-2-h{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.home .home-content-2 .home-content-2-3{
+    text-align: right;
+    float: right;
+}
+.home .home-content-2 .home-arrow{
+    max-width: 80px;
+}

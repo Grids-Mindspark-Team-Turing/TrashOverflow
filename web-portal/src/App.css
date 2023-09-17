@@ -1,1 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:wght@300&display=swap');
 
+h{
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-small{
+  display: none;
+}
+
+.header-big .nav-icon{
+  width: 80px;
+  height: auto;
+}
+
+.header-big .brand{
+  margin: auto;
+}
+
+.header-big .brand .brand-1{
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.header-big .brand .brand-2{
+  font-size: x-large;
+  color: #3bc801;
+}
+
+.header-big .nav-renders{
+  position: relative;
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.header-big .nav-renders .nav-txt{
+  text-decoration: none;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+.header-big .nav-renders .nav-txt:hover{
+  color: #3bc801;
+}
+
+@media (max-width: 991px){
+  .header-big{
+    display: none;
+  }
+
+  .header-small{
+    display: inline;
+    margin: 20px;
+  }
+
+  .header-small .nav-icon{
+    width: 40px;
+    height: auto;
+  }
+
+  .header-small .icon-left{
+    margin-left: 20px;
+    float: left;
+  }
+
+  .header-small .icon-right{
+    margin-right: 20px;
+    float: right;
+  }
+
+  .header-small .nav-txt{
+    display: block;
+    margin: 10px;
+    color: var(--black);
+  }
+}
