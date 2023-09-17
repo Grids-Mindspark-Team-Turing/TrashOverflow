@@ -1,0 +1,23 @@
+.stats{
+    margin: 20px;
+    padding: 20px;
+}
+.stats .stats-col{
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 20px;
+}
+.stats .stats-col:hover{
+    transform: scale(1.05);
+}
+.stats .stats-col .stats-col-img{
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+.stats .stats-col .stats-col-txt{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
