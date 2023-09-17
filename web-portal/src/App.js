@@ -1,8 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SafeRoute } from '../src/components/index'
+import { Home } from '../src/components/index'
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
           <Route
             path="/"
             element={[
-              <SafeRoute />,
+              <Home />,
             ]}
           />
         </Routes>

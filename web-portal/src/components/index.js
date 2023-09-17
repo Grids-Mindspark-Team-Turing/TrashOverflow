@@ -1,1 +1,1 @@
-export {default as SafeRoute} from './SafeRoute'
+export {default as Home} from './Home'
