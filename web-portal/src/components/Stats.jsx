@@ -9,11 +9,11 @@ const Stats = () => {
         <Row className='stats'>
             <Col className='stats-col'>
                 <img className='stats-col-img' src={lp} style={{ width: "600px" }} />
-                <p className='stats-col-txt'>Weight distribution of different categories of waste generated.</p>
+                <p className='stats-col-txt'>Trend of waste generated over the years 2010-2018 acc to weight and category</p>
             </Col>
             <Col className='stats-col'>
                 <img className='stats-col-img' src={pc} style={{ width: "600px" }} />
-                <p className='stats-col-txt'>Trend of waste generated over the years 2010-2018 acc to weight and category</p>
+                <p className='stats-col-txt'>Weight distribution of different categories of waste generated.</p>
             </Col>
         </Row>
     )

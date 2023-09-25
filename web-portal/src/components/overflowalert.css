@@ -3,12 +3,17 @@
     margin: 70px;
 }
 .overflow button{
-    background-color: #3bc801;
+    background-color: #3bc801 !important;
     color: white;
     border: #3bc801 solid 1px;
 }
 .overflow button:hover{
-    background-color: #3bc801;
+    background-color: #3bc801 !important;
+    color: white;
+    border: #3bc801 solid 1px;
+}
+.overflow button:visited{
+    background-color: #3bc801 !important;
     color: white;
     border: #3bc801 solid 1px;
 }
